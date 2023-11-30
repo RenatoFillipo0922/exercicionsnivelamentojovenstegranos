@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 16</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Digite as medidas:</h1>
+    <div class="display">
+      <label>Primeira medida:</label>
+      <input
+        type="number"
+        id="medida1"
+        placeholder="Primeira medida"
+        required
+      />
+
+      <label>Segunda medida:</label>
+      <input type="number" id="medida2" placeholder="Segunda medida" required />
+
+      <label>Terceira medida:</label>
+      <input
+        type="number"
+        id="medida3"
+        placeholder="Terceira medida"
+        required
+      />
+
+      <button type="button" onclick="calcular()">Calcular</button>
+
+      <p id="mostrarmedida1"></p>
+
+      <p id="mostrarmedida2"></p>
+
+      <p id="mostrarmedida3"></p>
+
+      <p id="maiormedida"></p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

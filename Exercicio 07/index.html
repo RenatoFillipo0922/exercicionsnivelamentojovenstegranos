@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 07</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Digite os dados para calcular:</h1>
+
+    <div class="input">
+      <label>Digite quantos quilometros viajou:</label>
+      <input
+        type="number"
+        id="quilometros"
+        placeholder="Quilometros rodados"
+        required
+      />
+      <br />
+      <label>Digite quanto de combustível foi gasto:</label>
+      <input
+        type="number"
+        id="combustivel"
+        placeholder="Combustível gasto"
+        required
+      />
+      <br />
+      <button type="button" onclick="calcular()">Calcular</button>
+    </div>
+    <div class="resultado">
+      <p id="distanciapercorrida"></p>
+      <p id="combustivelgasto"></p>
+      <p id="resultadomedia"></p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
